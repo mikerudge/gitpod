@@ -4,21 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-gray-100 min-h-screen text-center justify-center items-center flex font-mono">
+      <div>
+
+     <h1 className="text-3xl font-bold text-gray-700 hover:text-gray-800">
+      Welcome to the GitPod Demo
+    </h1>
+      <p className='text-lg text-gray-500 mt-2'>
+        This is just a simple tailwind react app
+      </p>
+      </div>
     </div>
   );
 }
